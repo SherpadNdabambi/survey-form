@@ -1,0 +1,50 @@
+#attribution > a {
+    color: rgb(10, 20, 30);
+}
+
+body{
+    background: url("../img/2127036.jpg");
+    background-size: 100%;
+    color: rgb(10, 20, 30);
+    font-family: sans-serif;
+}
+
+body > p, h1 {
+    text-align: center;
+}
+
+fieldset {
+    margin: 32px 0;
+}
+
+form {
+    background: rgba(10, 20, 30, 0.8);
+    border-radius: 5px;
+    color: rgb(195, 215, 235);
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 32px;
+    width: 80%;
+}
+
+input:not(input[type="checkbox"]):not(input[type="radio"]):not(input[type="submit"]), select {
+    display: block;
+    height: 24px;
+    margin: 10px 0 32px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: rgb(100, 127.5, 255);
+    display: block;
+    height: 32px;
+    margin: 32px auto 0;
+    border-style: none;
+    width: 100px;
+}
+
+textarea {
+    height: 100px;
+    margin-top: 16px;
+    width: 100%;
+}

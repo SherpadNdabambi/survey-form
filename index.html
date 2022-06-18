@@ -1,0 +1,66 @@
+<!DOCtype html>
+<html lang="en">
+
+    <head>
+
+        <title>Survey Form</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+
+        <h1 id="title">Survey Form</h1>
+
+        <p id="description">Thank you for participating in the survey. Please fill in the required fields.</p>
+
+        <form id="survey-form">
+
+            <label id="name-label">Enter your name: <input id="name" placeholder="e.g. Jane Doe" required type="text"></label>
+
+            <label id="email-label">Enter your email: <input id="email" placeholder="e.g. johndoe@mail.com" required type="email"></label>
+
+            <label id="number-label">Enter your age: <input id="number" placeholder="e.g. 32" max=120 min=13 type="number"></label>
+
+            <label>Select your employment status:
+                <select>
+                    <option selected disabled value="">--choose an option--</option>
+                    <option value="Employed">Employed</option>
+                    <option value="Self employed">Self employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                </select>
+            </label>
+
+            <p>Select your preferred pronouns:</p>
+            <label>
+                <input name="pronouns" type="radio" value="he/him">he/him
+            </label>
+            <label>
+                <input name="pronouns" type="radio" value="she/her">she/her
+            </label>
+            <label>
+                <input name="pronouns" type="radio" value="they/them">they/them
+            </label>
+
+            <fieldset>
+                <legend>Languages</legend>
+                <p>Please select all the languages you can speak.</p>
+                <label><input id="english" type="checkbox" value="English">English</label>
+                <label><input id="french" type="checkbox" value="French">French</label>
+                <label><input id="spanish" type="checkbox" value="Spanish">Spanish</label>
+                <label><input id="portuguese" type="checkbox" value="Portuguese">Portuguese</label>
+            </fieldset>
+
+            <label>Write any additional comments:
+                <textarea id="comments" placeholder="Your comments here..."></textarea>
+            </label>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <p id="attribution"><a href="http://www.freepik.com">Background image by Freepik</a></p>
+
+    </body>
+
+</html>
