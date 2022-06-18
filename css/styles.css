@@ -43,6 +43,11 @@ input[type="submit"] {
     width: 100px;
 }
 
+input[type="submit"]:hover {
+    background-color: rgb(112.5, 150, 255);
+    cursor: pointer;
+}
+
 textarea {
     height: 100px;
     margin-top: 16px;
